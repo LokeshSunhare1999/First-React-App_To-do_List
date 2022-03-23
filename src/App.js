@@ -4,15 +4,16 @@ import Header from './MyComponent/Header';
 import { Todos } from './MyComponent/Todos';
 import { Footer } from './MyComponent/Footer';
 import { AddTodo } from './MyComponent/AddTodo';
-import { About } from './MyComponent/About';
+import { About } from '. /MyComponent/About';
 import React, { useState, useEffect } from 'react';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
+
 
 function App() {
 
